@@ -1,0 +1,5 @@
+.github/
+dist/
+legacy/
+node_modules/
+static/

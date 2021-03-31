@@ -1,0 +1,93 @@
+.banner {
+  padding: 10vh 0 30vh;
+}
+
+.banner-text-content {
+  float: none;
+}
+
+.banner-text-content .banner-text {
+  background-image: url("../../assets/images/banner-text-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  padding: 50px 0 0 40px;
+  color: #ffffff;
+  width: 540px;
+}
+
+.banner-text-content .banner-text h6 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.banner-text-content .banner-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+
+.banner-text-content .banner-text p {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.banner-img {
+  -webkit-animation: zoomIn 4s infinite;
+  animation: zoomIn 4s infinite;
+}
+
+.uni-banner .uni-banner-overlay {
+  padding: 15px 0 15px;
+  border-bottom: 1px solid #ffffff15;
+}
+
+.uni-banner .uni-banner-overlay .banner-text {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.uni-banner .uni-banner-overlay .banner-text h1 {
+  text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.comment-form {
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff10;
+  border-radius: 20px;
+}
+
+.comment-form .input-card {
+  margin-top: 20px;
+}
+
+.comment-form .input-card label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.comment-form .input-card textarea,
+.comment-form .input-card input {
+  border-radius: 10px;
+  background-color: #ffffff50;
+  color: #ffffff;
+}
+
+.comment-form .form-check {
+  margin: 20px 0 0;
+}
+
+.comment-form .uni-button {
+  border: none;
+}
